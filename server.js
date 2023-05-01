@@ -95,6 +95,10 @@ app.post('/mail', (req, res, next) => {
 //   },
 // });
 
+app.get('/',  (req, res) => {
+    res.send('Hello World')
+  })
+
 // app.post('/mail', (req, res, next) => {
 //     var email = req.body.email
 //     var message = req.body.message
